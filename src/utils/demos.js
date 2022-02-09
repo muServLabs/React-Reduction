@@ -1,5 +1,6 @@
-import random from 'faker/lib/random';
+// import faker from  'Faker';
 
 export const randomNum = (min = 0, max = 1000) => {
-  return random().number({ min, max });
+  // return faker.random.number({ min, max });
+  return Math.floor(Math.random() * (max - min + 1) + min)
 };

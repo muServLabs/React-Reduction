@@ -71,7 +71,7 @@ class BubbleMap extends Component {
               )
             }
           </Geographies>
-          <Markers>
+          {/* <Markers>
             {this.state.cities.map((city, i) => (
               <Marker key={i} marker={city}>
                 <circle
@@ -84,7 +84,7 @@ class BubbleMap extends Component {
                 />
               </Marker>
             ))}
-          </Markers>
+          </Markers> */}
         </ZoomableGroup>
       </ComposableMap>
     );

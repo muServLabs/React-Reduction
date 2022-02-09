@@ -1,0 +1,15 @@
+{
+    id: "0ed639b8-a495-4c4a-986c-d5d713f568ed",
+    name: "C Drive",
+    icon: "./assets/icons/root.svg",
+    nodes: [
+        {
+            id: "46b45d2d-3423-47b6-9d85-38bda6736583",
+            name: "Windows",
+            icon: "./assets/icons/win.svg"
+
+        },
+        {},
+        {}
+    ]
+}
